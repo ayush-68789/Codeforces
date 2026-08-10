@@ -46,5 +46,6 @@ public class Beautiful_Matrix {
                 currC -- ; 
             }
         }
+        sc.close() ; 
     }
 }
