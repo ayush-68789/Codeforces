@@ -14,7 +14,7 @@ public class Beautiful_Matrix {
                 if(mat[i][j] == 1)
                 {
                     currR = i ; 
-                    currC = j ; 
+                    currC = j; 
                 }
             }
         }
@@ -22,7 +22,7 @@ public class Beautiful_Matrix {
         while(currR >= 0 && currR < 5 && currC >= 0 && currC < 5 ){
             if(currR == 2 && currC == 2)
             {
-                System.out.println(swap);
+                System.out.println(swap) ;
                 break ;
             }
             if(currR < 2)
